@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows-Helper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Assistente de Solução de Problemas - Windows 10</h1>
+        <form method="POST">
+            <label for="description">Descreva o problema:</label>
+            <textarea name="description" id="description" rows="5" placeholder="Explique o problema que você está enfrentando no Windows 10"></textarea>
+            <button type="submit">Diagnosticar</button>
+        </form>
+
+        {% if solution %}
+            <div class="solution">
+                <h2>Solução sugerida:</h2>
+                <p>{{ solution }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
