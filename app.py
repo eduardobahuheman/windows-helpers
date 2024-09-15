@@ -14,7 +14,7 @@ def diagnose_problem_windows(description):
         "lento": "O sistema está lento, tente desativar programas em segundo plano e verificar vírus,para isso podemos Desativar programas iniciados com o Windows: Pressione Ctrl + Shift + Esc > vá em Inicializa > desative programas desnecessários,Verificar por malware: Use o Windows Defender ou outro antivírus,Desinstalar programas indesejados: Vá em Configurações > Aplicativos > Aplicativos e recursos,Ajustar as opções de energia: Configurações > Sistema > Energia e suspensão > Configurações adicionais de energia.",
         "tela azul": "tente verificar drivers e possíveis erros de hardware.",
         "travando": "verifique as atualizações recentes e a integridade dos arquivos do sistema."
-        "esquenta""esquentando""calor""quente":"se o pc esta muito quente,temos varias posibilidades,como o sistema de resfriamento pode estar obistruido por sujeira ou a pasta termica dos componentes estar velha ,os componentes que podemos encontrar pasta termica sao o processador e a placa de video dedicada"
+        "esquenta;esquentando;calor;quente":"se o pc esta muito quente,temos varias posibilidades,como o sistema de resfriamento pode estar obistruido por sujeira ou a pasta termica dos componentes estar velha ,os componentes que podemos encontrar pasta termica sao o processador e a placa de video dedicada"
 
     }
 
