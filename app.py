@@ -18,9 +18,7 @@ def diagnose_problem(description):
         "esquenta": "pode ser pasta termica leve numa assistençia mais proxima",
         "quente": "pode ser pasta termica leve numa assistençia mais proxima",
         "teste":"teste do codigo",
-        "Touchpad não Funciona": "Nas configurações do teclado, você pode verificar se o touchpad tem uma opção de ligar/desligar, se não houver uma siga estes passos:Primeiro pressione Win + I e clique em Dispositivos.Selecione Mouse & Touchpad, e em seguida selecione Opções Adicionais do Mouse.
-Na nova janela que será aberta, escolha a guia Configurações do Dispositivo e em seguida Dispositivos.Selecione o seu touchpad específico e Ative se ainda não estiver ativado.Você também pode verificar e atualizar o driver clicando com o botão direito do mouse no touchpad e escolhendo a opção Atualizar Software do Driver.",
-
+        "teste1: "viu professor ta funcionando",
     }
     for key in common_problems:
         if key in description.lower():
