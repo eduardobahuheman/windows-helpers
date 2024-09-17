@@ -18,7 +18,7 @@ def diagnose_problem(description):
         "esquenta": "pode ser pasta termica leve numa assistençia mais proxima",
         "quente": "pode ser pasta termica leve numa assistençia mais proxima",
         "teste":"teste do codigo",
-        "teste1: "viu professor ta funcionando",
+        "teste1": "viu professor ta funcionando",
     }
     for key in common_problems:
         if key in description.lower():
